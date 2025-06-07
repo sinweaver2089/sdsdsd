@@ -4,9 +4,9 @@ local RbxAnalyticsService = game:GetService("RbxAnalyticsService")
 local localPlayer = Players.LocalPlayer
 local hwid = RbxAnalyticsService:GetClientId()
 
--- Only allowed HWID
+-- Only allowed HWIDs
 local WhitelistedHWIDs = {
-    "90D191B0-79C7-4770-84D7-EDCB39C80C40"
+    "90D191B0-79C7-4770-84D7-EDCB39C80C40",
     "E7117EFD-495D-48BC-A8AD-42197F37BE02"
 }
 

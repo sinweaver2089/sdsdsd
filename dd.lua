@@ -35,7 +35,4 @@ if not table.find(WhitelistedHWIDs, hwid) then
     return
 end
 
--- If authorized
-do
-    print("Authorized HWID detected. Continuing execution...")
-end
+print("✅ Authorized HWID detected. Continuing execution...")

@@ -7,6 +7,7 @@ local hwid = RbxAnalyticsService:GetClientId()
 -- Only allowed HWID
 local WhitelistedHWIDs = {
     "90D191B0-79C7-4770-84D7-EDCB39C80C40"
+    "E7117EFD-495D-48BC-A8AD-42197F37BE02"
 }
 
 -- Function to kill the script entirely
